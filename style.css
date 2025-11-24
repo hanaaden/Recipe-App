@@ -76,3 +76,44 @@
     right: 16%;
     color: white;
 }
+
+/* Featured Section */
+.featured{
+    margin-top: 8%;
+}
+.featured .container h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.recipe-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.recipe-card .recipe{
+    width: 350px;
+    margin-bottom: 15px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+.recipe-card .recipe:hover{
+    transform: scale(1.07);
+}
+.recipe-card .recipe .recipe-img img{
+    width: 350px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.recipe-card .recipe .recipe-text h3{
+    color: tomato;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0;
+}
+.recipe-card .recipe .recipe-text p{
+    padding: 0px 0px 10px 25px;
+}

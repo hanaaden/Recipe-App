@@ -117,3 +117,37 @@
 .recipe-card .recipe .recipe-text p{
     padding: 0px 0px 10px 25px;
 }
+
+/* Footer Section */
+.footer{
+    background-color: rgb(184, 181, 181);
+    margin-top: 80px;
+}
+.top{
+    padding: 60px 0 20px 0;
+}
+.top .cols{
+    display: flex;
+    justify-content: space-between;
+}
+.top .cols .col h3{
+    padding-bottom: 10px;
+    font-size: 19px
+}
+.top .cols .col p{
+    margin-bottom: 10px;
+}
+.top .cols .col ul li{
+    list-style: none;
+}
+.top .cols .col ul li a{
+    text-decoration: none;
+    color: black;
+}
+hr{
+    width: 100%;
+}
+.bottom p{
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
